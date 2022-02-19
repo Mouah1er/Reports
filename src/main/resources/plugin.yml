@@ -1,0 +1,11 @@
+name: Reports
+version: '${version}'
+main: fr.twah2em.reports.ReportsJavaPlugin
+api-version: 1.18
+authors: [ Twah2em ]
+description: ReportCommand plugin
+commands:
+  report:
+    description: Report someone
+  reportslist:
+    description: See reports

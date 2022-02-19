@@ -1,0 +1,8 @@
+database:
+  type: SQLite # MariaDB, MySQL or PostgreSQL
+  # if MySQL, MariaDB or PostgreSQL is used:
+  # host: # your host, e.g. "localhost"
+  # port: # your port, normally it's "3306" for MySQL and MariaDB port, and "5432" for PostgresSQL
+  # database-name: # your database name, e.g. "reports"
+  # username: # your database username
+  # password: # your database password
