@@ -23,7 +23,7 @@ public class ReportsCommand implements CommandExecutor {
         } else {
             if (player.hasPermission("reports.see")) {
                 if (args.length != 0) {
-                    player.sendMessage("§cError : Invalid command ! Usage: /reportslist");
+                    player.sendMessage("§cError : Invalid command ! Usage: /reports");
                 } else {
                     new ReportsListFastInv(1).open(player);
                 }
