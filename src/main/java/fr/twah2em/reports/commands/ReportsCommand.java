@@ -10,10 +10,10 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
 
-public class ReportsListCommand implements CommandExecutor {
+public class ReportsCommand implements CommandExecutor {
 
-    public ReportsListCommand() {
-        Objects.requireNonNull(ReportsJavaPlugin.getInstance().getCommand("reportslist")).setExecutor(this);
+    public ReportsCommand() {
+        Objects.requireNonNull(ReportsJavaPlugin.getInstance().getCommand("reports")).setExecutor(this);
     }
 
     @Override

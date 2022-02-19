@@ -7,5 +7,5 @@ description: ReportCommand plugin
 commands:
   report:
     description: Report someone
-  reportslist:
+  reports:
     description: See reports

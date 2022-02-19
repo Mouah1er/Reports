@@ -2,7 +2,7 @@ package fr.twah2em.reports;
 
 import fr.mrmicky.fastinv.FastInvManager;
 import fr.twah2em.reports.commands.ReportCommand;
-import fr.twah2em.reports.commands.ReportsListCommand;
+import fr.twah2em.reports.commands.ReportsCommand;
 import fr.twah2em.reports.config.ConfigManager;
 import fr.twah2em.reports.database.ReportsSQL;
 import fr.twah2em.reports.database.SQL;
@@ -26,7 +26,7 @@ public final class ReportsJavaPlugin extends JavaPlugin {
         FastInvManager.register(this);
 
         new ReportCommand();
-        new ReportsListCommand();
+        new ReportsCommand();
     }
 
     @Override
